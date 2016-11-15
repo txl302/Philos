@@ -68,7 +68,7 @@ if __name__ == '__main__':
 
     ret2, img2 = cam1.read()
 
-    cv2.waitKey(5000)
+    cv2.waitKey(1000)
     ret2, img2 = cam1.read()
     gray2 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
     cv2.waitKey(100)
